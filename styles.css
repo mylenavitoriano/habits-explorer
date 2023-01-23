@@ -44,6 +44,12 @@ button{
     font-weight: 600;
     font-size: 1rem;
     line-height: 125%;
+    transition: all ease .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid var(--violet-400);
 }
 
 #form-habits{
